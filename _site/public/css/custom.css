@@ -62,6 +62,7 @@
 }
 .theme-base-chocolate .sidebar p.lead {
     font-size: 1rem;
+    margin: 0 0 .25em;
 }
 @media screen and (max-width: 767px) {
     .theme-base-chocolate .sidebar {
@@ -84,6 +85,7 @@
 .theme-base-chocolate .navbar h1 {
     font-size: 1rem;
     font-family: "Abril Fatface", serif;
+    margin: .5em 0 .25em;
 }
 .theme-base-chocolate .navbar a {
     display: inline-block;
