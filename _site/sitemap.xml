@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>https://toolbuddy.github.io/2017/12/18/papoGen/</loc>
+    </url>
+
+    <url>
         <loc>https://toolbuddy.github.io/2017/11/19/docoGen/</loc>
     </url>
 
@@ -64,6 +68,22 @@
 
     <url>
         <loc>https://toolbuddy.github.io/tags/SemanticUI/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/papoGen/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/WebGenerator/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/PaperCSS/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/Pug/</loc>
     </url>
 
 </urlset>

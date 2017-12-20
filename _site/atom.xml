@@ -4,13 +4,53 @@
  <title>Toolbuddy Tech Notes</title>
  <link href="https://toolbuddy.github.io//atom.xml" rel="self"/>
  <link href="https://toolbuddy.github.io//"/>
- <updated>2017-12-20T17:51:28+08:00</updated>
+ <updated>2017-12-20T18:07:03+08:00</updated>
  <id>https://toolbuddy.github.io/</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>papoGen - Webpage Generator</title>
+   <link href="https://toolbuddy.github.io//2017/12/18/papoGen/"/>
+   <updated>2017-12-19T02:00:00+08:00</updated>
+   <id>https://toolbuddy.github.io//2017/12/18/papoGen</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ts1PC5b.png&quot; alt=&quot;papoGen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-papogen&quot;&gt;About papoGen&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;papoGen&lt;/strong&gt; - 是由 Toolbuddy 的 &lt;a href=&quot;https://kevinbird61.github.io/Intro/&quot;&gt;Kevin Cyu&lt;/a&gt; 最近開發的一個以 &lt;strong&gt;Pug&lt;/strong&gt; 作為靜態網頁生成的工具，搭配 &lt;strong&gt;PaperCSS&lt;/strong&gt; 作網頁的 UI Library，讓使用者可以在開發專案之餘，透過 JSON 與 Markdown 語法，快速生成一個專案網頁、產品說明網站，亦可以生成個人的網站，重點是&lt;strong&gt;「整體版面相當完善且快速生成」！！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;papoGen 主要透過 JSON 與 Markdown 編寫生成腳本，再將這些腳本經過 Pug 進行編譯，結合 PaperCSS 生成網頁的各個元件。paperGen 目前支援基本的文字 (Formal text) 與條列 (List)、圖像 (Image)、程式區塊 (Code block) 與數學公式 (Formula) 輸出。其中，數學公式的部分是以 &lt;strong&gt;MathJax&lt;/strong&gt; 格式標準。圖像除了支援 Local 路徑的圖檔，也支援圖像網址 (Image address)，可以&lt;strong&gt;直接將網頁上的圖像網址作為參數&lt;/strong&gt;引入，便可生成其圖像。&lt;/p&gt;
+
+&lt;p&gt;papoGen 是希望團隊能快速的生成一個「產品的介紹網站」，另一方面可以用於「個人網站的快速生成」。歡迎各位大神不吝賜教，有任何建議或是想法都歡迎和我們聯絡。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;papoGen 與 docoGen 都是 &lt;a href=&quot;https://github.com/toolbuddy&quot;&gt;Toolbuddy&lt;/a&gt; 團隊的作品！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/papoGen&quot;&gt;papoGen GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://toolbuddy.github.io/papoGen/&quot;&gt;papoGen DEMO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Dependencies
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.getpapercss.com/&quot;&gt;PaperCSS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://pugjs.org/api/getting-started.html&quot;&gt;Pug&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kevinbird61.github.io/Intro/&quot;&gt;Kevin Cyu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>docoGen - document Generator</title>
