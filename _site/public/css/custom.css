@@ -7,7 +7,7 @@
 /* chocolate Sidebar */
 
 .theme-base-chocolate .sidebar {
-    background-color: #75b5aa;
+    background-color: #f4bf75;
     color: #2a363b;
 }
 .theme-base-chocolate .sidebar a {
@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 .theme-base-chocolate .sidebar a:hover {
-    color: #FFFFFF;
+    color: #8f5536;
     text-decoration: none;
 }
 .theme-base-chocolate .sidebar-nav a.active {
@@ -50,7 +50,7 @@
     color: #2a363b;
 }
 .theme-base-chocolate .list-inline a:hover .fa-stack-1x {
-    color: #75b5aa;
+    color: #f4bf75;
 }
 .theme-base-chocolate .copyright {
     margin-bottom: 0;
@@ -72,7 +72,7 @@
     position: fixed;
     width: 100%;
     margin-bottom: 20px;
-    background-color: #75b5aa;
+    background-color: #f4bf75;
     color: #2a363b;
     z-index: 10;
     text-align: center;
