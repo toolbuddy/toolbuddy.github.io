@@ -30,6 +30,9 @@
     color: #2a363b;
     text-decoration: none;
 }
+.theme-base-chocolate .sidebar ul li:before{
+    content: "";
+}
 .theme-base-chocolate .sidebar-nav {
     margin-top: 1rem;
 }
@@ -257,6 +260,7 @@
     background-color: #bf4d28;
 }
 .theme-base-chocolate a.tag-wrapper {
+    background: none !important;
     margin-left: 3px;
     text-decoration: none;
 }
