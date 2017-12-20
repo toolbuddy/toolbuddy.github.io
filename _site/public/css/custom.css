@@ -22,8 +22,9 @@
     text-decoration: none;
 }
 .theme-base-chocolate .sidebar h1 a {
+    background: none !important;
     color: #2a363b;
-    font-size: 2.25rem;
+    font-size: 3.25rem;
 }
 .theme-base-chocolate .sidebar h1 a:hover {
     color: #2a363b;
