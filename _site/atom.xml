@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Toolbuddy Tech Notes</title>
+ <link href="https://toolbuddy.github.io//atom.xml" rel="self"/>
+ <link href="https://toolbuddy.github.io//"/>
+ <updated>2017-12-20T15:15:56+08:00</updated>
+ <id>https://toolbuddy.github.io/</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>docoGen - document Generator</title>
+   <link href="https://toolbuddy.github.io//2017/11/19/docoGen/"/>
+   <updated>2017-11-19T20:00:00+08:00</updated>
+   <id>https://toolbuddy.github.io//2017/11/19/docoGen</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/fkx11KR.png&quot; alt=&quot;docoGen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-docogen&quot;&gt;About docoGen&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;docoGen&lt;/strong&gt; - 是由 Toolbuddy 的 &lt;a href=&quot;https://yungshenglu.github.io/&quot;&gt;Yung-Sheng Lu&lt;/a&gt; 與 &lt;a href=&quot;https://kevinbird61.github.io/Intro/&quot;&gt;Kevin Cyu&lt;/a&gt; 最近開發一個主打文件生成器 (Document Generator) 的專案。主要是透過 JSON 與 Markdown 編寫腳本，再將這些腳本生成出靜態網頁 &lt;strong&gt;docoGen-WebUI&lt;/strong&gt;、LaTeX PDF 等說明文件，未來還希望會支援多種模版。
+當初開發 docoGen 是希望團隊能快速的產生一個產品說明文件以及產品的介紹網站，另一方面也可以用於教材上面，可以生成上課用的講義以及對應的教學網站，提供學生以及有需求的其他人做檢視與閱讀。歡迎各位大神不吝賜教，有任何建議或是想法都歡迎和我們聯絡。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;docoGen&lt;/strong&gt; is an open source project for convenient and widely used in document generation. Just write down your content in JSON format, then it will generate the general format, e.g., PDF for LaTex or web page (&lt;strong&gt;docoGen-WebUI&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://slides.com/kevinbird61/docogen&quot;&gt;docoGen 中文簡易說明&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;More about &lt;em&gt;docoGen&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/docoGen&quot;&gt;docoGen GitHub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/docoGen/wiki&quot;&gt;docoGen Wiki&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;More abour &lt;em&gt;docoGen-WebUI&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/docoGen-WebUI&quot;&gt;docoGen-WebUI GitHub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/docoGen-WebUI/wiki&quot;&gt;docoGen-WebUI Wiki&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kevinbird61.github.io/Intro/&quot;&gt;Kevin Cyu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yungshenglu.github.io/&quot;&gt;Yung-Sheng Lu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>

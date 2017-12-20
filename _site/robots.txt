@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: <https://toolbuddy.github.io//sitemap.xml>
