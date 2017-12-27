@@ -27,7 +27,7 @@ present    :
 
 ### papoGen `0.0.16` Workflow
 
-![](../public/workflow.png)
+![]({{ site.baseurl }}public/workflow.png)
 
 **papoGen `0.0.16`** 是目前穩定支援版本，支援 macOS 與 Linux 系統上 Node.js 的使用。
 **papoGen `0.0.16`** 新增 YAML 檔案格式輸入，而 YAML 的撰寫規格與 [JSON 的規格]((https://github.com/toolbuddy/papoGen/tree/master/test/json)) 相同，只有將與法改為 YAML。另外，使用者也可以透過 `papogen` 指令來建立 script template 來做修改後使用！可以參考這篇 [使用方法](https://github.com/toolbuddy/papoGen/blob/master/example/README.md#generate-script-template-by-command)。
