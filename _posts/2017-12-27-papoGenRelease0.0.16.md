@@ -70,6 +70,7 @@ papogen -s test/yaml -o docs/resume-yaml -g yaml -m resume -t papoGen-YAML
 * 在 `0.0.12` 版開始，可以支援透過 `papogen` 產生可支援的腳本格式！
 * 利用 `papogen -h` 來列出有支援哪些後，便可以利用 `<script>`（**藍色**部份）以及 `<format>`（**灰色**部份）的組合，來產生腳本；
     * 組合方式： `<script>`/`<format>`
+
 ```bash
 ~/develop » papogen -c json/text -o .
 
@@ -88,6 +89,8 @@ Specified: json/text
 Output dir(for script template): .
 [Success] Write script template file - json/text
 ```
+
+
 * 並且在 `0.0.12` 以後支援多個 `format` 格式指定，可以一行指令生成多個 template !
 ```
 ~/develop » papogen -c json/text/list/table -o .
