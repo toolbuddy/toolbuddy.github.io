@@ -4,13 +4,158 @@
  <title>Toolbuddy Tech Notes</title>
  <link href="https://toolbuddy.github.io//atom.xml" rel="self"/>
  <link href="https://toolbuddy.github.io//"/>
- <updated>2017-12-28T00:26:16+08:00</updated>
+ <updated>2017-12-28T09:22:11+08:00</updated>
  <id>https://toolbuddy.github.io/</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>papoGen 0.0.16 - Release note</title>
+   <link href="https://toolbuddy.github.io//2017/12/27/papoGenRelease0.0.16/"/>
+   <updated>2017-12-28T02:00:00+08:00</updated>
+   <id>https://toolbuddy.github.io//2017/12/27/papoGenRelease0.0.16</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ts1PC5b.png&quot; alt=&quot;papoGen&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.16&lt;/code&gt;&lt;/strong&gt; Release - 目前穩定支援的版本。
+支援 macOS 與 Linux 系統上的 Node.js，只要透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g papoGen&lt;/code&gt; 即可立即體驗！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;about-papogen-0016&quot;&gt;About papoGen 0.0.16&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;支援 macOS 與 Linux 系統上的 Node.js，為目前穩定支援版本。&lt;/li&gt;
+  &lt;li&gt;支援 JSON/YAML 檔案格式作為輸入。&lt;/li&gt;
+  &lt;li&gt;透過以下三種模組進行網頁生成：
+    &lt;ol&gt;
+      &lt;li&gt;使用者自訂 Pug 樣板&lt;/li&gt;
+      &lt;li&gt;使用者自訂 JSON / YAML 網頁內容&lt;/li&gt;
+      &lt;li&gt;使用者或第三方自訂 CSS 模板&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-papogen-0016-workflow&quot;&gt;1. papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.16&lt;/code&gt; Workflow&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://toolbuddy.github.io/public/workflow.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.16&lt;/code&gt;&lt;/strong&gt; 是目前穩定支援版本，支援 macOS 與 Linux 系統上 Node.js 的使用。
+&lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.16&lt;/code&gt;&lt;/strong&gt; 新增 YAML 檔案格式輸入，而 YAML 的撰寫規格與 &lt;a href=&quot;(https://github.com/toolbuddy/papoGen/tree/master/test/json)&quot;&gt;JSON 的規格&lt;/a&gt; 相同，只有將與法改為 YAML。另外，使用者也可以透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;papogen&lt;/code&gt; 指令來建立 script template 來做修改後使用！可以參考這篇 &lt;a href=&quot;https://github.com/toolbuddy/papoGen/blob/master/example/README.md#generate-script-template-by-command&quot;&gt;使用方法&lt;/a&gt;。
+&lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.16&lt;/code&gt;&lt;/strong&gt; 支援以下二種輸出樣式： &lt;code class=&quot;highlighter-rouge&quot;&gt;doc&lt;/code&gt; 與 &lt;code class=&quot;highlighter-rouge&quot;&gt;resume&lt;/code&gt;，以下為操作指令！&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;papogen -s &amp;lt;裝有剛剛編輯文檔的目錄&amp;gt; -o &amp;lt;網站產生的目錄&amp;gt; -g &amp;lt;使用的文檔格式，ex: json or yaml&amp;gt; -m &amp;lt;想要使用的網站 template，ex: doc or resume&amp;gt; -t &amp;lt;網站 title&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;這麼一來就可以看到產生的網站囉！&lt;/p&gt;
+
+&lt;h3 id=&quot;2-example-usage-詳細版&quot;&gt;2. Example usage (詳細版)&lt;/h3&gt;
+
+&lt;p&gt;以下展示了如何透過 papoGen 來快速產生一個網站：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;編輯 &lt;code class=&quot;highlighter-rouge&quot;&gt;src/&lt;/code&gt; 內的 JSON / YAML 檔案。&lt;/li&gt;
+  &lt;li&gt;運行指令即在資料夾 &lt;code class=&quot;highlighter-rouge&quot;&gt;out/&lt;/code&gt; 下生成結果網頁。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;21-get-started&quot;&gt;2.1 Get Started&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;透過 npm 安裝 &lt;code class=&quot;highlighter-rouge&quot;&gt;papogen&lt;/code&gt;。
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  » &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; papogen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;編輯 &lt;code class=&quot;highlighter-rouge&quot;&gt;src/&lt;/code&gt; 內的 JSON 檔案，每個 JSON 檔案代表一種類型，詳細察看根目錄中 &lt;code class=&quot;highlighter-rouge&quot;&gt;test/README.md&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;運行指令產生：以下 &lt;code class=&quot;highlighter-rouge&quot;&gt;-s&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;-o&lt;/code&gt; 為必備之外，其餘的參數指定都有預設值！
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  » papogen &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; src/ &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; out/ &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &amp;lt;your title&amp;gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &amp;lt;model you want&amp;gt; &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; &amp;lt;support format&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;範例：使用 YAML 生成
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  » papogen &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;/yaml &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; docs/resume-yaml &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; yaml &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; resume &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; papoGen-YAML
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;22-generate-script-template-by-command&quot;&gt;2.2 Generate Script Template by Command&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在 &lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.12&lt;/code&gt;&lt;/strong&gt; 版開始，可以支援透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;papogen&lt;/code&gt; 產生可支援的腳本格式。&lt;/li&gt;
+  &lt;li&gt;利用 &lt;code class=&quot;highlighter-rouge&quot;&gt;papogen -h&lt;/code&gt; 來列出有支援哪些後，便可以利用 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;（&lt;strong&gt;藍色&lt;/strong&gt;部份）以及 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;format&amp;gt;&lt;/code&gt;（&lt;strong&gt;灰色&lt;/strong&gt;部份）的組合，來產生腳本；組合方式： &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; / &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;format&amp;gt;&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ~/develop » papogen &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; json/text &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt;
+
+  Welcome using toolbuddy@papoGen!
+  Current version: 0.0.12
+
+  - src is %s /usr/local/lib/node_modules/papogen
+  - out is %s
+  - title is %s Power by papoGen
+  - gen is %s json
+  - model is %s doc
+
+
+  Generating ...
+  Specified: json/text
+  Output dir&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;script template&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+  &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Success] Write script template file - json/text
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;在 &lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.12&lt;/code&gt;&lt;/strong&gt; 開始支援多個 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;format&amp;gt;&lt;/code&gt; 的指定，可以一行指令生成多個模板 !
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ~/develop » papogen -c json/text/list/table -o .
+  ...
+  # 生成 text.json, list.json, 以及 table.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;在 &lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.12&lt;/code&gt;&lt;/strong&gt; 開始也支援全部 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;format&amp;gt;&lt;/code&gt; 的指定（每種各一個）
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ~/develop » papogen -c json/all -o .
+  ...
+  生成全部的 template ！
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h4 id=&quot;23-help-manual&quot;&gt;2.3 Help Manual&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;如有任何使用疑問，可以下 &lt;code class=&quot;highlighter-rouge&quot;&gt;-h&lt;/code&gt; 的參數做察看
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  » papogen &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-bonus&quot;&gt;3. Bonus&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在圖片 (&lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt;) 與程式區塊 (&lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt;) 的規格中，檔案來源支援 &lt;strong&gt;相對路徑&lt;/strong&gt;！&lt;/li&gt;
+  &lt;li&gt;關於圖片 (&lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt;) 規格
+papoGen 會自動將圖片檔案複製到輸出資料夾的 &lt;code class=&quot;highlighter-rouge&quot;&gt;res/&lt;/code&gt; 底下做使用，另外也支援 &lt;strong&gt;圖檔網址&lt;/strong&gt; 作為圖檔來源，你可以直接提供圖檔的網址作為參數使用。&lt;/li&gt;
+  &lt;li&gt;關於程式區塊 (&lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt;) 規格
+papoGen 會在讀取完畢程式碼後直接嵌入網頁中，無須擔心檔案相對路徑問題！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-conclusion&quot;&gt;4. Conclusion&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;歡迎貢獻！&lt;/li&gt;
+  &lt;li&gt;覺得有趣的話，也希望可以給顆星星~&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/papoGen&quot;&gt;papoGen GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://toolbuddy.github.io/papoGen/&quot;&gt;papoGen DEMO&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://toolbuddy.github.io/papoGen/doc&quot;&gt;papoGen DEMO - doc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://toolbuddy.github.io/papoGen/resume&quot;&gt;papoGen DEMO - resume&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://toolbuddy.github.io/2017/12/18/papoGen/&quot;&gt;Previous papoGen introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kevinbird61.github.io/Intro/&quot;&gt;Kevin Cyu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>papoGen - Webpage Generator</title>
