@@ -1,6 +1,6 @@
 ---
 layout     : post
-title      : "papoGen 0.0.16 - Release note"
+title      : "papoGen 0.0.16 - Release Note"
 subtitle   : "Node.js Modules"
 date       : 2017-12-27 18:00:00
 author     : "Toolbuddy"
