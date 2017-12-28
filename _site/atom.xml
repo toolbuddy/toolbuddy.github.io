@@ -4,7 +4,7 @@
  <title>Toolbuddy Tech Notes</title>
  <link href="https://toolbuddy.github.io//atom.xml" rel="self"/>
  <link href="https://toolbuddy.github.io//"/>
- <updated>2017-12-28T09:25:43+08:00</updated>
+ <updated>2017-12-28T09:27:50+08:00</updated>
  <id>https://toolbuddy.github.io/</id>
  <author>
    <name></name>
@@ -107,10 +107,14 @@
   &lt;li&gt;在 &lt;strong&gt;papoGen &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.12&lt;/code&gt;&lt;/strong&gt; 開始也支援全部 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;format&amp;gt;&lt;/code&gt; 的指定（每種各一個）
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ~/develop » papogen -c json/all -o .
   ...
-  生成全部的 template ！
+  # 生成全部的 template ！
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;h4 id=&quot;23-help-manual&quot;&gt;2.3 Help Manual&lt;/h4&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;23-help-manual&quot;&gt;2.3 Help Manual&lt;/h4&gt;
+
+&lt;ul&gt;
   &lt;li&gt;如有任何使用疑問，可以下 &lt;code class=&quot;highlighter-rouge&quot;&gt;-h&lt;/code&gt; 的參數做察看
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  » papogen &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
