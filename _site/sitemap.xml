@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>https://toolbuddy.github.io/2018/01/01/visual-ll/</loc>
+    </url>
+
+    <url>
         <loc>https://toolbuddy.github.io/2017/12/27/papoGenRelease0.0.16/</loc>
     </url>
 
@@ -88,6 +92,26 @@
 
     <url>
         <loc>https://toolbuddy.github.io/tags/Pug/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/c/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/linked-list/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/visualization/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/library/</loc>
+    </url>
+
+    <url>
+        <loc>https://toolbuddy.github.io/tags/graphviz/</loc>
     </url>
 
 </urlset>

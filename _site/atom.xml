@@ -4,13 +4,68 @@
  <title>Toolbuddy Tech Notes</title>
  <link href="https://toolbuddy.github.io//atom.xml" rel="self"/>
  <link href="https://toolbuddy.github.io//"/>
- <updated>2017-12-28T09:27:50+08:00</updated>
+ <updated>2018-01-04T09:48:59+08:00</updated>
  <id>https://toolbuddy.github.io/</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>visuall-ll: An visualization of linked-list</title>
+   <link href="https://toolbuddy.github.io//2018/01/01/visual-ll/"/>
+   <updated>2018-01-02T02:00:00+08:00</updated>
+   <id>https://toolbuddy.github.io//2018/01/01/visual-ll</id>
+   <content type="html">&lt;h2 id=&quot;visualization-linked-list-visual-ll-project&quot;&gt;Visualization Linked-list: &lt;strong&gt;visual-ll&lt;/strong&gt; project&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;出發點為希望建構出一個方便於在 C 程式中對於 linked-list 這個抽象的資料結構概念做 debug 時使用的工具&lt;/li&gt;
+  &lt;li&gt;於是結合了 &lt;code class=&quot;highlighter-rouge&quot;&gt;graphviz&lt;/code&gt; 這套工具（各平台都有支援！）&lt;/li&gt;
+  &lt;li&gt;透過 linked-list 連接的特性，在印出彼此關係時，把 &lt;strong&gt;鍵結&lt;/strong&gt; 以 graphviz 的格式輸出到檔案中&lt;/li&gt;
+  &lt;li&gt;再透過 graphviz 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;dot&lt;/code&gt; 指令把輸出的檔案轉換成對應的圖片；並利用圖像化的模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;如何使用--demo&quot;&gt;如何使用 + DEMO&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;設計的方式主要以 &lt;strong&gt;library&lt;/strong&gt; 做提供；基本的資料結構定義加上 general-purposed 的 method 作為 library 提供給需要的人做 fork/clone 後自行修改使用；&lt;/li&gt;
+  &lt;li&gt;透過 library 內 &lt;code class=&quot;highlighter-rouge&quot;&gt;print_gv_*&lt;/code&gt; 的 method，可以把目前操作後的 linked-list 結果給輸出&lt;/li&gt;
+  &lt;li&gt;可以在專案內 &lt;code class=&quot;highlighter-rouge&quot;&gt;lib/&lt;/code&gt; 的資料夾中找到目前實作的函式；並且可以看到於專案根目錄中的 &lt;code class=&quot;highlighter-rouge&quot;&gt;main.c&lt;/code&gt; 中提供&lt;strong&gt;如何操作使用&lt;/strong&gt;的範例&lt;/li&gt;
+  &lt;li&gt;目前支援：
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;一般的 linked-list
+  &lt;img src=&quot;https://toolbuddy.github.io/public/visual-ll/graph.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;二元樹 binary tree
+  &lt;img src=&quot;https://toolbuddy.github.io/public/visual-ll/graph2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;圖 graph
+  &lt;img src=&quot;https://toolbuddy.github.io/public/visual-ll/graph3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;更詳細內容可以參考下方 &lt;code class=&quot;highlighter-rouge&quot;&gt;Reference&lt;/code&gt; 中的 &lt;code class=&quot;highlighter-rouge&quot;&gt;github&lt;/code&gt; 連結！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/toolbuddy/visual-ll&quot;&gt;visual-ll GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kevinbird61.github.io/Intro/&quot;&gt;Kevin Cyu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>papoGen 0.0.16 - Release Note</title>
