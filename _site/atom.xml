@@ -4,7 +4,7 @@
  <title>Toolbuddy Tech Notes</title>
  <link href="https://toolbuddy.github.io//atom.xml" rel="self"/>
  <link href="https://toolbuddy.github.io//"/>
- <updated>2018-01-04T09:48:59+08:00</updated>
+ <updated>2018-01-04T09:54:30+08:00</updated>
  <id>https://toolbuddy.github.io/</id>
  <author>
    <name></name>
@@ -36,15 +36,15 @@
     &lt;ul&gt;
       &lt;li&gt;
         &lt;p&gt;一般的 linked-list
-  &lt;img src=&quot;https://toolbuddy.github.io/public/visual-ll/graph.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;img src=&quot;https://toolbuddy.github.io/public/visual_ll/graph1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;二元樹 binary tree
-  &lt;img src=&quot;https://toolbuddy.github.io/public/visual-ll/graph2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;img src=&quot;https://toolbuddy.github.io/public/visual_ll/graph2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;圖 graph
-  &lt;img src=&quot;https://toolbuddy.github.io/public/visual-ll/graph3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;img src=&quot;https://toolbuddy.github.io/public/visual_ll/graph3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;

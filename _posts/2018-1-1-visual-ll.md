@@ -25,13 +25,13 @@ present    :
 * 可以在專案內 `lib/` 的資料夾中找到目前實作的函式；並且可以看到於專案根目錄中的 `main.c` 中提供**如何操作使用**的範例
 * 目前支援：
     * 一般的 linked-list
-    ![]({{ site.baseurl }}public/visual-ll/graph.png)
+    ![]({{ site.baseurl }}public/visual_ll/graph1.png)
 
     * 二元樹 binary tree
-    ![]({{ site.baseurl }}public/visual-ll/graph2.png)
+    ![]({{ site.baseurl }}public/visual_ll/graph2.png)
 
     * 圖 graph
-    ![]({{ site.baseurl }}public/visual-ll/graph3.png)
+    ![]({{ site.baseurl }}public/visual_ll/graph3.png)
     
 * 更詳細內容可以參考下方 `Reference` 中的 `github` 連結！
 
