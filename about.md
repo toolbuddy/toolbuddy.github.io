@@ -6,6 +6,15 @@ Welcome to Toolbuddy Tech Notes!
 
 這邊是 `toolbuddy` 社群的開發日誌，對於新開發的專案說明、Release Notes 都會放置於此！
 
+目前社群內的開發小組:
+
+* 網頁開發 - `ProFatXuanAll`
+    * 主攻前端技術的開發小組
+    * 從做中學
+* 多媒體 - `CG Team`
+    * 主攻圖像技術以及機器學習
+    * 目前主軸開發表情包產生工具
+
 目前幾項開發中的專案:
 
 * 產生器 (Generator)
