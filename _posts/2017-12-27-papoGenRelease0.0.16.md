@@ -2,7 +2,7 @@
 layout     : post
 title      : "papoGen 0.0.16 - Release Note"
 subtitle   : "Node.js Modules"
-date       : 2017-12-27 18:00:00
+date       : 2017-12-27 12:00:00
 author     : "Toolbuddy"
 tags       : papoGen WebGenerator JSON Markdown NodeJS PaperCSS Pug
 comments   : true

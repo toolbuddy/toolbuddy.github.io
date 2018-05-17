@@ -2,7 +2,7 @@
 layout     : post
 title      : "visuall-ll: An visualization of linked-list"
 subtitle   : "C library"
-date       : 2018-1-1 18:00:00
+date       : 2018-1-1 12:00:00
 author     : "Toolbuddy"
 tags       : c linked-list visualization library graphviz
 comments   : true
