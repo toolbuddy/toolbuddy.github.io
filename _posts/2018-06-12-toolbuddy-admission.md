@@ -11,7 +11,7 @@ slides     :
 present    : 
 --- 
 
-![toolbuddy](https://imgur.com/qMh7OpH)
+![toolbuddy](https://i.imgur.com/qMh7OpH.png)
 
 ## Toolbuddy
 
